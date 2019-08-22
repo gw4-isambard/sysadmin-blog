@@ -126,6 +126,14 @@ a:hover { text-decoration: underline; }
   padding: 8px;
 }
 
+code {
+    padding: 0 0.2rem;
+    background: #d8d8d8;
+    font-family: monospace;
+    color: #333;
+    border-radius: 2px;
+}
+
 /* Sidebar */
 aside {
   font-size: 14px;
