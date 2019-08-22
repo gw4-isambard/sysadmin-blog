@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GW4 Isambard - events</title><link href="/" rel="alternate"></link><link href="/feeds/events.atom.xml" rel="self"></link><id>/</id><updated>2018-10-17T00:00:00+01:00</updated><entry><title>Webinar: Cray Programming Environment for ARM</title><link href="/webinar-cray-programming-environment-for-arm.html" rel="alternate"></link><published>2018-10-17T00:00:00+01:00</published><updated>2018-10-17T00:00:00+01:00</updated><author><name>Joe Heaton</name></author><id>tag:None,2018-10-17:/webinar-cray-programming-environment-for-arm.html</id><content type="html">&lt;p&gt;An hour-long webinar by Cray on their ARM Programming Environment&lt;/p&gt;
+&lt;p&gt;[Webinar: Embrace Arm for HPC Confidently with the Cray Programming Environment]&lt;/p&gt;
+&lt;iframe src="https://www.youtube-nocookie.com/embed/zh3N5O00R2Q"
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content></entry><entry><title>Isambard Hackathon #2 "Stoking The Fire"</title><link href="/isambard-hackathon-2-stoking-the-fire.html" rel="alternate"></link><published>2018-03-21T00:00:00+00:00</published><updated>2018-03-21T00:00:00+00:00</updated><author><name>Joe Heaton</name></author><id>tag:None,2018-03-21:/isambard-hackathon-2-stoking-the-fire.html</id><summary type="html">&lt;p&gt;The second Isambard hackathon "Stoking The Fire" ended yesterday after a day and a half of hacking on the second half of the top 10 most common Archer codes + the UM/NEMO. There were specialists for each of the codes, Cray compiler and performance engineers all the way from the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The second Isambard hackathon "Stoking The Fire" ended yesterday after a day and a half of hacking on the second half of the top 10 most common Archer codes + the UM/NEMO. There were specialists for each of the codes, Cray compiler and performance engineers all the way from the USA and Cavium engineers.&lt;/p&gt;
+&lt;p&gt;I was really pleased to see the system handling the workload without incident and surprised that this time not a single node crashed! That alone makes the week it took to upgrade the ARM chips worth it!&lt;/p&gt;
+&lt;p&gt;There were bugs in some codes being run, there were even a couple of compiler and performance tool bugs discovered and raised with Cray; At this early stage every bug found is a step towards getting the platform closer to operational quality!&lt;/p&gt;
+&lt;p&gt;I mostly spent my time applying helping users use the system, applying hotfixes, investigating enhancement requests and eating the sandwiches. Although when asked for a build system, whose own upstream project had dropped 13yrs ago, I understandably chose to insist on deprecation!&lt;/p&gt;
+&lt;p&gt;The following codes were run successfully:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CASTEP&lt;/li&gt;
+&lt;li&gt;OpenFOAM&lt;/li&gt;
+&lt;li&gt;SBLI&lt;/li&gt;
+&lt;li&gt;UM &amp;amp; NEMO&lt;/li&gt;
+&lt;li&gt;Molpro&lt;/li&gt;
+&lt;li&gt;NAMD&lt;/li&gt;
+&lt;li&gt;Hydro3D&lt;/li&gt;
+&lt;li&gt;Bookleaf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="gallery"&gt;
+    &lt;h2&gt;Photos&lt;/h2&gt;
+
+    &lt;a title="Stoking the fire - Isambard is here!" href="/images/2018-stoking-the-fire-isambard.jpg"&gt;
+        &lt;img style="max-width:30%" src="/images/2018-stoking-the-fire-isambard.jpg"&gt;
+    &lt;/a&gt;
+    &lt;a title="Stoking the fire - Compiling people" href="/images/2018-stoking-the-fire-isambard.jpg"&gt;
+        &lt;img style="max-width:69%" src="/images/2018-stoking-the-fire-compiling.jpg"&gt;
+    &lt;/a&gt;
+&lt;/div&gt;</content></entry></feed>
