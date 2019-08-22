@@ -6,7 +6,7 @@
 git clone CLONE_URL gw4-isambard
 cd gw4-isambard
 python3 -m venv .
-. source/activate
+. bin/activate
 pip install -r requirements.txt
 ```
 
