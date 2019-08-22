@@ -49,3 +49,8 @@ Embed it in Markdown
 </div>
 
 ```
+
+## Push to Github Pages
+```
+make github
+```
