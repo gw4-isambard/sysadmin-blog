@@ -9,7 +9,7 @@
         <meta name="description" content="{{ AUTHOR_DESCRIPTION }}">
         <meta name="author" content="{{ AUTHOR }}">
 
-        <link rel="shortcut icon" href="{{ FAVICON }}">
+        <link rel="shortcut icon" href="{{ SITEURL }}/images/{{ FAVICON }}">
 
         <!-- schema.org -->
         <meta itemprop="name" content="{{ SITENAME }}">
@@ -35,7 +35,16 @@
 <!-- Sidebar -->
 <aside>
     <!--<center><a href="{{ SITEURL }}"><img id="avatar" src="{{ AVATAR }}"></a></center>-->
-    <h1><a style="color:#fff" href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+    <h1>
+        <a href="{{ SITEURL }}" id="logo">
+            <img src="{{ SITEURL }}/images/logo/GW4Logo.png" alt="">
+            <img src="{{ SITEURL }}/images/logo/isambard.png" alt="">
+        </a>
+
+        <a style="color:#fff" href="{{ SITEURL }}">
+            {{ SITENAME }}
+        </a>
+    </h1>
     {% if SIDEBAR_DIGEST %}
         <p>{{ SIDEBAR_DIGEST }}</p>
     {% endif %}
@@ -112,23 +121,5 @@
     <footer>
     </footer>
 {% endif %}
-
-{% if GOOGLE_ANALYTICS %}
-    <!-- Analytics -->
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS }}']);
-        _gaq.push(['_trackPageview']);
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-{% endif %}
-
  </body>
 </html>
