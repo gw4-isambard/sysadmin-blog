@@ -11,7 +11,7 @@ The single cabinet consists of approx 164 compute nodes of 64 cores each, for a 
 
  
 
-Discussions are underway on acceptance tests, we expect to run HPL (LINPACK), HPCG, STREAM, MPI & I/O benchmarks. Some practical codes will also be run for comparison against the numbers produced on the Early Access nodes ( http://www.goingarm.com/slides/2017/SC17/GoingArm_SC17_Bristol_Isambard.pdf ), including UM/NEMO, a chemistry and an engineering code.
+Discussions are underway on acceptance tests, we expect to run HPL (LINPACK), HPCG, STREAM, MPI & I/O benchmarks. Some practical codes will also be run for comparison against the numbers produced on the Early Access nodes ( <http://www.goingarm.com/slides/2017/SC17/GoingArm_SC17_Bristol_Isambard.pdf> ), including UM/NEMO, a chemistry and an engineering code.
 
  
-The HPC group at Bristol Uni has recently put out a paper on these numbers in more depth: https://uob-hpc.github.io/assets/cug-2018.pdf
+The HPC group at Bristol Uni has recently put out a paper on these numbers in more depth: <https://uob-hpc.github.io/assets/cug-2018.pdf>
