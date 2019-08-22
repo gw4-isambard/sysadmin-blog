@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+ <head>
+            <meta charset="utf-8">
+        <!-- Site Meta Data -->
+        <title>GW4 Isambard | IBM Power 9 with Nvidia "Volta" V100</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Isambard sysadmins">
+
+        <link rel="shortcut icon" href="./images//logo/raisingsteam.favicon.png">
+
+        <!-- schema.org -->
+        <meta itemprop="name" content="GW4 Isambard">
+        <meta itemprop="image" content="">
+        <meta itemprop="description" content="">
+
+        <link rel="stylesheet" href="./theme/css/style.css" type="text/css">
+        <link rel="stylesheet" href="./theme/css/pygments.css" type="text/css">
+
+        <!-- Feed Meta Data -->
+
+    <meta property="og:title" content="GW4 Isambard ~ IBM Power 9 with Nvidia "Volta" V100"/>
+    <meta property="og:description" content="Freshly installed, Isambard has another couple of architectures available! SSH onto a login node as normal, documented at https://github.com/UoB-HPC/GW4-Isambard/blob/master/docs/GettingStarted.md - Then SSH to power-001 or power-002! 2x IBM Power System AC922: 2x 20-core 2.4 GHz (3.0 GHz Turbo) Power 9 …"/>
+    <meta property="og:image" content=""/>
+ </head>
+
+ <body>
+<!-- Sidebar -->
+<aside>
+    <!--<center><a href="."><img id="avatar" src=""></a></center>-->
+    <h1>
+        <a href="." id="logo">
+            <img src="./images/logo/GW4Logo.png" alt="">
+            <img src="./images/logo/isambard.png" alt="">
+        </a>
+
+        <a style="color:#fff" href=".">
+            GW4 Isambard
+        </a>
+    </h1>
+
+    <nav class="nav">
+        <ul class="list-bare">
+
+                <li><a class="nav__link" href="https://gw4-isambard.github.io/docs/">Documentation</a></li>
+                <li><a class="nav__link" href="https://gw4.ac.uk/isambard/">GW4</a></li>
+
+
+        </ul>
+    </nav>
+
+    <br><br>
+    <nav class="nav"> 
+        <h2>Categories</h2>
+        <ul class="list-bare">
+                <li class="active">
+                    <a class="nav__link" href="./category/announcements.html">announcements</a>
+                </li>
+                <li>
+                    <a class="nav__link" href="./category/events.html">events</a>
+                </li>
+                <li>
+                    <a class="nav__link" href="./category/science.html">science</a>
+                </li>
+                <li>
+                    <a class="nav__link" href="./category/updates.html">updates</a>
+                </li>
+        </ul>
+    </nav>
+
+
+    <p class="social">
+    </p>
+
+    <div>
+        <ul class="list-bare">
+            <li>Blog powered by <a href="http://getpelican.com/">Pelican</a>.</li>
+            <li>Theme <a href="https://github.com/parbhat/pelican-blue">Pelican-Blue</a>.</li>
+        </ul>
+    </div>
+</aside>
+
+<!-- Content -->
+<article>
+    <section id="content">
+        <article>
+            <h2 class="post_title post_detail"><a href="./ibm-power-9-with-nvidia-volta-v100.html" rel="bookmark"
+                                                  title="Permalink to IBM Power 9 with Nvidia "Volta" V100">IBM Power 9 with Nvidia "Volta" V100</a></h2>
+            <div class="entry-content blog-post">
+                <p>Freshly installed, Isambard has another couple of architectures available!</p>
+<p>SSH onto a login node as normal, documented at https://github.com/UoB-HPC/GW4-Isambard/blob/master/docs/GettingStarted.md - Then SSH to <code>power-001</code> or <code>power-002</code>!</p>
+<p>2x IBM Power System AC922:</p>
+<ul>
+<li>2x 20-core 2.4 GHz (3.0 GHz Turbo) Power 9 CPU Little-Endian</li>
+<li>256GiB DDR4</li>
+<li>EDR Infiniband</li>
+<li>2x NVIDIA "Volta" V100 GPU with NVLink</li>
+</ul>
+<p>Current software:</p>
+<ul>
+<li>Red Hat 7.5 (for IBM Power Little Endian)</li>
+<li>IBM XL C/C++ 16.1.0</li>
+<li>IBM XL Fortran 16.1.0</li>
+<li>GCC 4.8.5</li>
+<li>NVIDIA drivers 396.26 (Upstream)</li>
+<li>NVIDIA CUDA 9.2</li>
+<li>NVIDIA CuDNN 7.1.4</li>
+<li>NVIDIA NCCL 2.2.13</li>
+<li>Anaconda2 5.1.0</li>
+<li>Anaconda3 5.1.0</li>
+<li>POWER AI</li>
+</ul>
+<p>Lustre is mounted via NFS at /lustre-nfs with /home, /projects/, /common mounted through this. In the near future I hope to have a direct Lustre mount without NFS, this is pending an upgrade to Isambard's Lustre filesystem.</p>
+<p>PBS is not enabled on these nodes currently, we are looking into this! For now the nodes will be a free-for-all so please experiment considerately as-always!</p>
+<p>Please provide feedback if you encounter any issues or have any requests!</p>
+            </div>
+            <div class="post_list">
+                <span>By </span>
+                <a href="./author/joe-heaton.html">Joe Heaton</a>.
+                
+                <span>Posted in </span><span class="post_category"><a href="./category/announcements.html" rel="bookmark"
+                                               title="Permalink to announcements">announcements</a></span>
+                <span> on </span><span class="post_date">Fri 08 June 2018</span>
+
+                <div class="entry-social">
+                    <span class="twitter"><a target="_blank" rel="nofollow"
+                                             onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"
+                                             title="Twitter"
+                                             href="https://twitter.com/share?url=./ibm-power-9-with-nvidia-volta-v100.html&text=IBM Power 9 with Nvidia "Volta" V100&via="><img
+                            src="./theme/images/icons/twitter-s.png"></a></span>
+
+                    <span class="gplus"><a target="_blank" title="Google +"
+                                           href="https://plus.google.com/share?url=./ibm-power-9-with-nvidia-volta-v100.html&hl=fr"
+                                           rel="nofollow"
+                                           onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="./theme/images/icons/google-s.png"></a></span>
+
+                    <span class="facebook"><a target="_blank" title="Facebook" rel="nofollow"
+                                              onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"
+                                              href="https://www.facebook.com/sharer.php?u=./ibm-power-9-with-nvidia-volta-v100.html&t=IBM Power 9 with Nvidia "Volta" V100"><img
+                            src="./theme/images/icons/facebook-s.png"></a></span>
+
+                    <a target="_blank" title="Linkedin"
+                       href="https://www.linkedin.com/shareArticle?mini=true&url=./ibm-power-9-with-nvidia-volta-v100.html&title=IBM Power 9 with Nvidia "Volta" V100"
+                       rel="nofollow"
+                       onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=650');return false;"><img
+                            src="./theme/images/icons/linkedin-s.png"></a>
+
+                    <span class="mail"><a
+                            href="mailto:?subject=IBM Power 9 with Nvidia "Volta" V100&amp;body=Viens découvrir un article à propos de [IBM Power 9 with Nvidia "Volta" V100] sur le site de Isambard sysadmins. ./ibm-power-9-with-nvidia-volta-v100.html"
+                            title="Share by Email" target="_blank"><img
+                            src="./theme/images/icons/mail-s.png"></a></span>
+                </div>
+            </div>
+        </article>
+    </section>
+</article>
+
+<!-- Footer -->
+    <footer>
+    </footer>
+ </body>
+</html>
