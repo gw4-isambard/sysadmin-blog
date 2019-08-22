@@ -14,6 +14,8 @@ DEFAULT_LANG = 'en'
 
 THEME = 'theme/pelican-blue'
 
+FAVICON = '/logo/raisingsteam.favicon.png'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -29,7 +31,6 @@ DISPLAY_CATEGORIES_ON_MENU = True
 #)
 
 MENUITEMS = (
-    ('Home', SITEURL),
     ('Documentation', 'https://gw4-isambard.github.io/docs/'),
     ('GW4', 'https://gw4.ac.uk/isambard/'),
 )
