@@ -2,24 +2,34 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
+AUTHOR = 'Isambard sysadmins'
+SITENAME = 'GW4 Isambard'
+SITEURL = '/gw4-isambard/'
 
-import os
-import sys
-sys.path.append(os.curdir)
-from pelicanconf import *
+PATH = 'content'
 
-# If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = ''
-RELATIVE_URLS = False
+TIMEZONE = 'Europe/London'
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+DEFAULT_LANG = 'en'
 
-DELETE_OUTPUT_DIRECTORY = True
+THEME = 'theme/pelican-blue'
 
-# Following items are often useful when publishing
+FAVICON = '/logo/raisingsteam.favicon.png'
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+DISPLAY_CATEGORIES_ON_MENU = True
+
+MENUITEMS = (
+    ('Documentation', 'https://gw4-isambard.github.io/docs/'),
+    ('GW4', 'https://gw4.ac.uk/isambard/'),
+)
+
+DEFAULT_PAGINATION = False
+
+RELATIVE_URLS = True
