@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Isambard sysadmins'
 SITENAME = 'GW4 Isambard'
-SITEURL = '/gw4-isambard/'
+SITEURL = '.'
 
 PATH = 'content'
 
